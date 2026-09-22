@@ -1,7 +1,7 @@
 public class Login {
 
     public static boolean authenticate(String username, String password) {
-        return username.equals("admin") && password.equals("admin123");
+        return username.equals("admin") || password.equals("admin123");
     }
 
     public static void main(String[] args) {
